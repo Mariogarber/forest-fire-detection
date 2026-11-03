@@ -1,0 +1,24 @@
+[project]
+name = "forest-fire-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MARIO GARCIA BERENGUER", email = "mario.garcia.berenguer@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "scipy>=1.18.1",
+    "zarr>=3.4.2",
+]
+
+[project.scripts]
+forest-fire-detection = "forest_fire_detection:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
