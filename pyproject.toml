@@ -8,11 +8,20 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "cartopy>=0.26.0",
+    "dask>=2026.8.0",
+    "h5netcdf>=1.8.2",
+    "h5py>=3.16.0",
     "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "openpyxl>=3.1.5",
     "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
+    "torch[vision]>=2.15.0",
+    "torchvision>=0.29.2",
+    "xarray>=2026.9.0",
     "zarr>=3.4.2",
 ]
 
