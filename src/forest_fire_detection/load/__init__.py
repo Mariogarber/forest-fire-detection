@@ -1,0 +1,1 @@
+from forest_fire_detection.load.satellite import SatelliteLoader
